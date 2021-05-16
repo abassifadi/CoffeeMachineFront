@@ -1,0 +1,18 @@
+@import url('../../app.component.scss');
+
+.command-card {
+        display: flex; 
+        flex-direction : row;
+        margin: 1rem !important;
+}
+
+.command-details {
+    margin: 0.5rem !important;
+    margin-left: 2rem !important;
+    text-align: left !important;
+}
+
+.recreate{
+    margin-top : 2rem !important;
+    margin-left: 4rem !important;
+}

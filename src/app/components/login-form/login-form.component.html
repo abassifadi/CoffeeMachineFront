@@ -1,0 +1,16 @@
+<div class="py-5 text-center">
+
+    <h3>Please Enter you login</h3>
+    <hr />
+    
+    <form class="form-inline" onsubmit="return false;">
+        <div class="form-group">
+            <input type="text" class="form-control" name="identifier" [(ngModel)]="identifier" />
+        </div>
+        <button class="btn btn-default btn-brown" (click)="signInUser()">Submit</button>
+    </form>
+    <hr />
+    <div>
+        <a class="font-brown" routerLink="/command"> Skip and go to pass command </a>
+    </div>
+</div>
