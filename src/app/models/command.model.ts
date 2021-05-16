@@ -1,7 +1,7 @@
 export default class Command {
     drinkName: string;
-    userIdentifier? : string;
+    userIdentifier?: string;
     sugarQuantity: number;
     useOwnMug: boolean;
-    moneyInserted : number
+    moneyInserted: number;
 }

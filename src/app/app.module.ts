@@ -11,16 +11,16 @@ import { NotifierModule, NotifierOptions } from 'angular-notifier';
 
 const customNotifierOptions: NotifierOptions = {
   position: {
-		horizontal: {
-			position: 'left',
-			distance: 12
-		},
-		vertical: {
-			position: 'bottom',
-			distance: 12,
-			gap: 10
-		}
-	},
+    horizontal: {
+    position: 'left',
+    distance: 12
+  },
+  vertical: {
+     position: 'bottom',
+     distance: 12,
+     gap: 10
+  }
+ },
   theme: 'material',
   behaviour: {
     autoHide: 5000,
@@ -57,7 +57,7 @@ const customNotifierOptions: NotifierOptions = {
     CreateCommandComponent,
     LoginFormComponent,
     PreviousCommandsComponent,
-    
+
   ],
   imports: [
     BrowserModule,

@@ -8,9 +8,9 @@ export class UserService {
 
   private BASE_API_URL = 'https://localhost:44313/api/MachineUser';
 
-  constructor(private _http: HttpClient) { }
+  constructor(private http: HttpClient) { }
 
-   public signInUser(login : string ){
-      return this._http.get(this.BASE_API_URL+'?identifier='+login)
+   public signInUser(login: string ) {
+      return this.http.get(this.BASE_API_URL + '?identifier=' + login);
    }
 }
